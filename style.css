@@ -15,6 +15,17 @@ table, th, td {
   text-align: center;
   vertical-align: middle;
 }
+
+td {
+    padding: 0;
+}
+
+td img {
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
 .special {
     background-color: yellow;
 }
