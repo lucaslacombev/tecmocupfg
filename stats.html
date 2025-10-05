@@ -9,11 +9,6 @@
 <body>
     <header>
         <div id="menu"></div>
-        <script>
-            fetch('menu.html')
-            .then(res => res.text())
-            .then(html => document.getElementById('menu').innerHTML = html);
-        </script>
     </header>
     <main>
         <h1>Tecmo Cup Football Game - Player Stats</h1>
@@ -2030,6 +2025,13 @@
             </tr>
         </table>
     </main>
-    
+    <footer>
+        
+    </footer>
+    <script>
+            fetch('menu.html')
+            .then(res => res.text())
+            .then(html => document.getElementById('menu').innerHTML = html);
+        </script>
 </body>
 </html>
